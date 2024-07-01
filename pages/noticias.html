@@ -9,14 +9,14 @@
     <title>Club Deportivo</title>
 </head>
 
-<body>
+<body class="bg-gray-100 text-gray-800">
 
     <!-- Navbar -->
-    <nav class="border-gray-200 dark:bg-gray-900">
+    <nav class="border-gray-200 dark:bg-gray-900 shadow-lg">
         <div class="container flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            <a href="../index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="../assets/images/logo.jpeg" class="h-8" alt="Flowbite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Club Deportivo</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -58,40 +58,48 @@
 
     <main>
         <!-- Sección de Bienvenida -->
-        <!-- Resto de tu contenido -->
+        <section class="py-16 bg-cover bg-center bg-white">
+            <div class="container mx-auto text-center">
+                <h1 class="text-4xl font-bold text-black mb-4">Bienvenidos al Club Deportivo</h1>
+                <p class="text-lg text-black">Donde la pasión por el deporte se encuentra con la excelencia.</p>
+            </div>
+        </section>
 
         <!-- Noticias y Actualizaciones -->
         <section class="section-bg py-16">
             <div class="container mx-auto">
-                <h2 class="section-title text-3xl font-semibold mb-4 mt-4">Noticias y Actualizaciones</h2>
+                <h2 class="section-title text-3xl font-semibold mb-4 mt-4 text-center">Noticias y Actualizaciones</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <!-- Tarjeta de Noticia 1 -->
-                    <div class="card p-6 rounded-lg shadow-md">
+                    <div class="card p-6 rounded-lg shadow-md bg-white">
                         <img src="https://via.placeholder.com/300" alt="Imagen de Noticia 1" class="mb-4 rounded-lg">
-                        <h3 class="card-title text-xl font-semibold mb-2">Noticia 1</h3>
-                        <p class="card-content text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
+                        <h3 class="card-title text-xl font-semibold mb-2">Fichaje Estrella</h3>
+                        <p class="card-content text-gray-700">El Club Deportivo ha realizado el fichaje estrella de la
+                            temporada, incorporando a su plantilla a uno de los jugadores más prometedores del fútbol
+                            internacional.</p>
                     </div>
                     <!-- Tarjeta de Noticia 2 -->
-                    <div class="card p-6 rounded-lg shadow-md">
+                    <div class="card p-6 rounded-lg shadow-md bg-white">
                         <img src="https://via.placeholder.com/300" alt="Imagen de Noticia 2" class="mb-4 rounded-lg">
-                        <h3 class="card-title text-xl font-semibold mb-2">Noticia 2</h3>
-                        <p class="card-content text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
+                        <h3 class="card-title text-xl font-semibold mb-2">Renovación del Estadio</h3>
+                        <p class="card-content text-gray-700">Se ha anunciado la renovación del estadio principal, con
+                            mejoras significativas en las instalaciones para ofrecer una mejor experiencia a los
+                            aficionados.</p>
                     </div>
                     <!-- Tarjeta de Noticia 3 -->
-                    <div class="card p-6 rounded-lg shadow-md">
+                    <div class="card p-6 rounded-lg shadow-md bg-white">
                         <img src="https://via.placeholder.com/300" alt="Imagen de Noticia 3" class="mb-4 rounded-lg">
-                        <h3 class="card-title text-xl font-semibold mb-2">Noticia 3</h3>
-                        <p class="card-content text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
+                        <h3 class="card-title text-xl font-semibold mb-2">Nuevas Camisetas</h3>
+                        <p class="card-content text-gray-700">El Club Deportivo ha revelado el diseño de las nuevas
+                            camisetas para la próxima temporada, con un estilo renovado y moderno que ha encantado a los
+                            aficionados.</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Flowbite CSS -->
+    <!-- Flowbite JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>
 
